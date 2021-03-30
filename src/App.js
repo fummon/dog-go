@@ -6,7 +6,7 @@ import DogList from "./components/DogList";
 
 
 function App() {
-  const apiKey ='6946dd1b-0cbf-4aef-86f2-9fd2a44b4e47';
+  const apiKey ='';//insert api key here from thedogapi
 
   let [dogs, setDogs] = useState([]);
   const [input, setInput] = useState(""); 
